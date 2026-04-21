@@ -30,7 +30,9 @@ export function Contact() {
                 <MessageCircle className="h-5 w-5" />
               </div>
               <div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">WhatsApp</div>
+                <div className="text-xs uppercase tracking-wider text-muted-foreground">
+                  WhatsApp
+                </div>
                 <div className="mt-1 font-serif text-2xl text-foreground">651 85 19 46</div>
               </div>
             </a>
@@ -45,7 +47,9 @@ export function Contact() {
                 <MapPin className="h-5 w-5" />
               </div>
               <div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">Dirección</div>
+                <div className="text-xs uppercase tracking-wider text-muted-foreground">
+                  Dirección
+                </div>
                 <div className="mt-1 text-base leading-snug text-foreground">
                   Plaza del Papa Juan Pablo II, 21
                   <br />
@@ -64,7 +68,9 @@ export function Contact() {
                 <Instagram className="h-5 w-5" />
               </div>
               <div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">Instagram</div>
+                <div className="text-xs uppercase tracking-wider text-muted-foreground">
+                  Instagram
+                </div>
                 <div className="mt-1 font-serif text-2xl text-foreground">@sitjoycoffee</div>
               </div>
             </a>

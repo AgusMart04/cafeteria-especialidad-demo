@@ -16,10 +16,7 @@ export function StickyMobileBar() {
           <MessageCircle className="h-5 w-5" />
           <span className="text-[11px] font-medium">WhatsApp</span>
         </a>
-        <a
-          href="#carta"
-          className="flex flex-col items-center gap-1 py-3 text-foreground"
-        >
+        <a href="#carta" className="flex flex-col items-center gap-1 py-3 text-foreground">
           <UtensilsCrossed className="h-5 w-5 text-primary" />
           <span className="text-[11px] font-medium">Carta</span>
         </a>

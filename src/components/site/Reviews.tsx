@@ -1,9 +1,21 @@
 import { Star, ExternalLink } from "lucide-react";
 
 const reviews = [
-  { name: "María G.", text: "Desayunos espectaculares y un café increíble. Repetiré seguro.", rating: 5 },
-  { name: "Carlos R.", text: "Ambiente increíble y muy bonito. El sitio perfecto para empezar el día.", rating: 5 },
-  { name: "Lucía P.", text: "El mejor brunch de Alicante. Todo riquísimo y un trato genial.", rating: 5 },
+  {
+    name: "María G.",
+    text: "Desayunos espectaculares y un café increíble. Repetiré seguro.",
+    rating: 5,
+  },
+  {
+    name: "Carlos R.",
+    text: "Ambiente increíble y muy bonito. El sitio perfecto para empezar el día.",
+    rating: 5,
+  },
+  {
+    name: "Lucía P.",
+    text: "El mejor brunch de Alicante. Todo riquísimo y un trato genial.",
+    rating: 5,
+  },
 ];
 
 export function Reviews() {

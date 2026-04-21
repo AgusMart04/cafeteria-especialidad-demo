@@ -27,10 +27,7 @@ export function Hours() {
         <div className="reveal mt-12 overflow-hidden rounded-3xl border border-border bg-card shadow-soft">
           <ul className="divide-y divide-border">
             {schedule.map((s) => (
-              <li
-                key={s.day}
-                className="flex items-center justify-between gap-4 px-6 py-4 md:px-8"
-              >
+              <li key={s.day} className="flex items-center justify-between gap-4 px-6 py-4 md:px-8">
                 <span className="font-medium text-foreground">{s.day}</span>
                 <span className="text-right text-sm text-foreground/75">{s.time}</span>
               </li>

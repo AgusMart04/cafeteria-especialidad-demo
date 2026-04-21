@@ -18,17 +18,76 @@ type Item = {
 };
 
 const items: Item[] = [
-  { name: "Egg Joy", desc: "Tostada de masa madre, aguacate, huevo poché y microbrotes", price: "12,50 €", img: eggJoy, cat: "Brunch", featured: true },
-  { name: "Club Joy", desc: "Pan tostado, pollo, bacon, lechuga y tomate con patatas", price: "12,50 €", img: clubJoy, cat: "Sándwiches", featured: true },
-  { name: "Flat White", desc: "Café de especialidad con leche cremosa y arte latte", price: "3,20 €", img: coffee, cat: "Cafés" },
-  { name: "Pancakes Joy", desc: "Pancakes esponjosos con frutos rojos y sirope de arce", price: "9,80 €", img: pancakes, cat: "Desayunos" },
-  { name: "Croissant artesano", desc: "Mantequilla, hojaldre dorado y café de la casa", price: "4,50 €", img: pastry, cat: "Repostería" },
-  { name: "Avo Toast", desc: "Tostada con aguacate, huevo, chile y cilantro fresco", price: "8,90 €", img: toast, cat: "Tostadas" },
-  { name: "Iced Latte", desc: "Espresso doble con leche fría y hielo", price: "3,80 €", img: iced, cat: "Bebidas frías" },
-  { name: "Granola Bowl", desc: "Yogur natural, granola casera, frutas y miel", price: "7,90 €", img: bowl, cat: "Desayunos" },
+  {
+    name: "Egg Joy",
+    desc: "Tostada de masa madre, aguacate, huevo poché y microbrotes",
+    price: "12,50 €",
+    img: eggJoy,
+    cat: "Brunch",
+    featured: true,
+  },
+  {
+    name: "Club Joy",
+    desc: "Pan tostado, pollo, bacon, lechuga y tomate con patatas",
+    price: "12,50 €",
+    img: clubJoy,
+    cat: "Sándwiches",
+    featured: true,
+  },
+  {
+    name: "Flat White",
+    desc: "Café de especialidad con leche cremosa y arte latte",
+    price: "3,20 €",
+    img: coffee,
+    cat: "Cafés",
+  },
+  {
+    name: "Pancakes Joy",
+    desc: "Pancakes esponjosos con frutos rojos y sirope de arce",
+    price: "9,80 €",
+    img: pancakes,
+    cat: "Desayunos",
+  },
+  {
+    name: "Croissant artesano",
+    desc: "Mantequilla, hojaldre dorado y café de la casa",
+    price: "4,50 €",
+    img: pastry,
+    cat: "Repostería",
+  },
+  {
+    name: "Avo Toast",
+    desc: "Tostada con aguacate, huevo, chile y cilantro fresco",
+    price: "8,90 €",
+    img: toast,
+    cat: "Tostadas",
+  },
+  {
+    name: "Iced Latte",
+    desc: "Espresso doble con leche fría y hielo",
+    price: "3,80 €",
+    img: iced,
+    cat: "Bebidas frías",
+  },
+  {
+    name: "Granola Bowl",
+    desc: "Yogur natural, granola casera, frutas y miel",
+    price: "7,90 €",
+    img: bowl,
+    cat: "Desayunos",
+  },
 ];
 
-const cats = ["Todo", "Cafés", "Desayunos", "Brunch", "Sándwiches", "Tostadas", "Repostería", "Bebidas frías"];
+const cats = [
+  "Todo",
+  "Cafés",
+  "Desayunos",
+  "Brunch",
+  "Sándwiches",
+  "Tostadas",
+  "Repostería",
+  "Bebidas frías",
+];
 
 export function Menu() {
   const [active, setActive] = useState("Todo");
