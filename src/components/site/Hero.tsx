@@ -29,8 +29,8 @@ export function Hero() {
         </h1>
 
         <p className="reveal mt-6 max-w-xl text-base leading-relaxed text-foreground/80 md:text-lg">
-          Un espacio donde el sabor, el diseño y el buen ambiente se encuentran.
-          Desayunos creativos, brunch artesanal y café de origen, sin prisas.
+          Un espacio donde el sabor, el diseño y el buen ambiente se encuentran. Desayunos
+          creativos, brunch artesanal y café de origen, sin prisas.
         </p>
 
         <div className="reveal mt-8 flex flex-wrap gap-3 md:justify-center">

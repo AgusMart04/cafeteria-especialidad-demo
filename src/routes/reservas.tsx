@@ -1,6 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { CalendarCheck, Clock, Users, MessageCircle, ArrowLeft, Loader2, CheckCircle2 } from "lucide-react";
+import {
+  CalendarCheck,
+  Clock,
+  Users,
+  MessageCircle,
+  ArrowLeft,
+  Loader2,
+  CheckCircle2,
+} from "lucide-react";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { StickyMobileBar } from "@/components/site/StickyMobileBar";
@@ -114,7 +122,9 @@ function ReservasPage() {
               <ul className="mt-8 space-y-3 text-sm text-foreground/85">
                 <li className="flex items-start gap-3">
                   <Users className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
-                  <span>Solo aceptamos solicitudes para grupos de <strong>10 personas o más</strong>.</span>
+                  <span>
+                    Solo aceptamos solicitudes para grupos de <strong>10 personas o más</strong>.
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Clock className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
@@ -162,8 +172,18 @@ function ReservasPage() {
 
                 <form onSubmit={handleSubmit} className="space-y-5">
                   {/* Honeypot anti-spam */}
-                  <input type="text" name="_gotcha" className="hidden" tabIndex={-1} autoComplete="off" />
-                  <input type="hidden" name="_subject" value="Nueva solicitud de reserva — Sit&Joy" />
+                  <input
+                    type="text"
+                    name="_gotcha"
+                    className="hidden"
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nueva solicitud de reserva — Sit&Joy"
+                  />
 
                   <div className="grid gap-5 md:grid-cols-2">
                     <Field label="Nombre completo" name="name" required autoComplete="name" />
@@ -188,19 +208,8 @@ function ReservasPage() {
                       required
                       placeholder="Mín. 10"
                     />
-                    <Field
-                      label="Fecha deseada"
-                      name="date"
-                      type="date"
-                      required
-                      min={today}
-                    />
-                    <Field
-                      label="Hora aproximada"
-                      name="time"
-                      type="time"
-                      required
-                    />
+                    <Field label="Fecha deseada" name="date" type="date" required min={today} />
+                    <Field label="Hora aproximada" name="time" type="time" required />
                   </div>
 
                   <div className="grid gap-5 md:grid-cols-2">
@@ -346,15 +355,7 @@ function Field({
   );
 }
 
-function SelectField({
-  label,
-  name,
-  options,
-}: {
-  label: string;
-  name: string;
-  options: string[];
-}) {
+function SelectField({ label, name, options }: { label: string; name: string; options: string[] }) {
   return (
     <div>
       <label htmlFor={name} className="mb-2 block text-sm font-medium text-foreground">

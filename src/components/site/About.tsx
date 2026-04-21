@@ -19,18 +19,16 @@ export function About() {
             Sobre nosotros
           </span>
           <h2 className="font-serif text-4xl leading-tight text-foreground md:text-5xl">
-            El café como <em className="text-primary">experiencia</em>,
-            no como rutina.
+            El café como <em className="text-primary">experiencia</em>, no como rutina.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-foreground/75 md:text-lg">
-            Sit&Joy nace con la idea de transformar el café en experiencia.
-            Un lugar donde cada plato y cada taza están pensados para
-            disfrutar sin prisas, en un ambiente moderno, cálido y diseñado
-            con cariño.
+            Sit&Joy nace con la idea de transformar el café en experiencia. Un lugar donde cada
+            plato y cada taza están pensados para disfrutar sin prisas, en un ambiente moderno,
+            cálido y diseñado con cariño.
           </p>
           <p className="mt-4 text-base leading-relaxed text-foreground/75 md:text-lg">
-            Trabajamos con producto fresco, café de especialidad y recetas
-            propias para ofrecerte el mejor brunch del centro de Alicante.
+            Trabajamos con producto fresco, café de especialidad y recetas propias para ofrecerte el
+            mejor brunch del centro de Alicante.
           </p>
 
           <div className="mt-10 grid grid-cols-3 gap-4">

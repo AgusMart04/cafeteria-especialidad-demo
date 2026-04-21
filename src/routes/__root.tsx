@@ -1,4 +1,5 @@
 import { Link, createRootRoute, HeadContent, Scripts, Outlet } from "@tanstack/react-router";
+import { Analytics } from "@vercel/analytics/react";
 
 function NotFoundComponent() {
   return (
@@ -43,6 +44,7 @@ function RootComponent() {
       <HeadContent />
       <Scripts />
       <Outlet />
+      <Analytics />
     </>
   );
 }
