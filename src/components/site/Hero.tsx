@@ -1,8 +1,9 @@
 import { MessageCircle, MapPin, UtensilsCrossed } from "lucide-react";
 import heroImg from "@/assets/hero-brunch.jpg";
 
-const MAPS_URL =
-  "https://www.google.com/maps/search/?api=1&query=Sit%26Joy+Plaza+del+Papa+Juan+Pablo+II+21+Alicante";
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Alicante+Spain";
+const WHATSAPP_URL =
+  "https://wa.me/624537879?text=Hola!%20me%20gusto%20tu%20demo%20de%20Caf%C3%A9%20de%20especialidad";
 
 export function Hero() {
   return (
@@ -10,7 +11,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="Brunch con café de especialidad, tostada de aguacate y pancakes en Sit&Joy Alicante"
+          alt="Brunch con café de especialidad, tostada de aguacate y pancakes"
           className="h-full w-full object-cover"
           width={1920}
           height={1280}
@@ -35,7 +36,7 @@ export function Hero() {
 
         <div className="reveal mt-8 flex flex-wrap gap-3 md:justify-center">
           <a
-            href="https://wa.me/34651851946"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-soft transition-all hover:translate-y-[-2px] hover:shadow-card"
@@ -63,7 +64,7 @@ export function Hero() {
             <span className="text-base text-primary">★ 4,8</span> · 243 reseñas
           </span>
           <span className="hidden h-4 w-px bg-border md:inline-block" />
-          <span>Plaza del Papa Juan Pablo II, 21 · Alicante</span>
+          <span>Calle Principal, 1 · 03001 Alicante</span>
         </div>
       </div>
     </section>

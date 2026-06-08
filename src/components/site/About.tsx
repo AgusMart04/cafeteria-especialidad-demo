@@ -7,7 +7,7 @@ export function About() {
         <div className="reveal relative overflow-hidden rounded-3xl shadow-card">
           <img
             src={aboutImg}
-            alt="Interior de la cafetería Sit&Joy en Alicante con luz natural y ambiente acogedor"
+            alt="Interior de una cafetería de especialidad con luz natural y ambiente acogedor"
             className="h-full w-full object-cover"
             loading="lazy"
             width={1024}
@@ -22,9 +22,9 @@ export function About() {
             El café como <em className="text-primary">experiencia</em>, no como rutina.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-foreground/75 md:text-lg">
-            Sit&Joy nace con la idea de transformar el café en experiencia. Un lugar donde cada
-            plato y cada taza están pensados para disfrutar sin prisas, en un ambiente moderno,
-            cálido y diseñado con cariño.
+            Nacemos con la idea de transformar el café en experiencia. Un lugar donde cada plato y
+            cada taza están pensados para disfrutar sin prisas, en un ambiente moderno, cálido y
+            diseñado con cariño.
           </p>
           <p className="mt-4 text-base leading-relaxed text-foreground/75 md:text-lg">
             Trabajamos con producto fresco, café de especialidad y recetas propias para ofrecerte el

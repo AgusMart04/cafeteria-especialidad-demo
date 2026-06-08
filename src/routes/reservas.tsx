@@ -14,10 +14,10 @@ import { Footer } from "@/components/site/Footer";
 import { StickyMobileBar } from "@/components/site/StickyMobileBar";
 import reservationsImage from "@/assets/reservations-group.jpg";
 
-const TITLE = "Reservas para grupos · Sit&Joy Alicante";
+const TITLE = "Reservas para grupos · Café de Especialidad Demo";
 const DESC =
-  "Solicita tu reserva para grupos de 10 o más personas en Sit&Joy. Brunch, café de especialidad y eventos especiales en el corazón de Alicante.";
-const URL = "https://sitjoycoffee.es/reservas";
+  "Solicita tu reserva para grupos de 10 o más personas. Brunch, café de especialidad y eventos especiales en Alicante.";
+const URL = "https://cafe-especialidad-demo.vercel.app/reservas";
 
 // IMPORTANTE: Sustituye este endpoint por el tuyo de Formspree (https://formspree.io/f/XXXXXXXX)
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/your-form-id";
@@ -33,7 +33,7 @@ export const Route = createFileRoute("/reservas")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:url", content: URL },
-      { property: "og:site_name", content: "Sit&Joy" },
+      { property: "og:site_name", content: "Café de Especialidad" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESC },
@@ -146,7 +146,7 @@ function ReservasPage() {
             <div className="relative overflow-hidden rounded-3xl shadow-card">
               <img
                 src={reservationsImage}
-                alt="Mesa de brunch para grupos en Sit&Joy Alicante"
+                alt="Mesa de brunch para grupos"
                 className="h-full w-full object-cover"
                 loading="lazy"
               />
@@ -182,7 +182,7 @@ function ReservasPage() {
                   <input
                     type="hidden"
                     name="_subject"
-                    value="Nueva solicitud de reserva — Sit&Joy"
+                    value="Nueva solicitud de reserva — Café de Especialidad"
                   />
 
                   <div className="grid gap-5 md:grid-cols-2">
@@ -301,13 +301,13 @@ function ReservasPage() {
           <div className="mt-8 text-center">
             <p className="text-sm text-muted-foreground">¿Prefieres escribirnos directamente?</p>
             <a
-              href="https://wa.me/34651851946"
+              href="https://wa.me/624537879?text=Hola!%20me%20gusto%20tu%20demo%20de%20Caf%C3%A9%20de%20especialidad"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center gap-2 font-serif text-2xl text-primary transition-colors hover:opacity-80"
             >
               <MessageCircle className="h-5 w-5" />
-              WhatsApp · 651 85 19 46
+              WhatsApp · 624 53 78 79
             </a>
           </div>
         </section>

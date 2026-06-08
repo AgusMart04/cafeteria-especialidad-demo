@@ -54,7 +54,7 @@ export function Reviews() {
 
         <div className="reveal mt-12 text-center">
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Sit%26Joy+Alicante"
+            href="https://www.google.com/maps/search/?api=1&query=Alicante+Spain"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-medium text-foreground transition-all hover:border-primary/50"

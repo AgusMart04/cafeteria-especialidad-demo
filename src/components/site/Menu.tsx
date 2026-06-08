@@ -19,7 +19,7 @@ type Item = {
 
 const items: Item[] = [
   {
-    name: "Egg Joy",
+    name: "Egg Benedict",
     desc: "Tostada de masa madre, aguacate, huevo poché y microbrotes",
     price: "12,50 €",
     img: eggJoy,
@@ -27,7 +27,7 @@ const items: Item[] = [
     featured: true,
   },
   {
-    name: "Club Joy",
+    name: "Club Sándwich",
     desc: "Pan tostado, pollo, bacon, lechuga y tomate con patatas",
     price: "12,50 €",
     img: clubJoy,
@@ -42,7 +42,7 @@ const items: Item[] = [
     cat: "Cafés",
   },
   {
-    name: "Pancakes Joy",
+    name: "Pancakes Clásicos",
     desc: "Pancakes esponjosos con frutos rojos y sirope de arce",
     price: "9,80 €",
     img: pancakes,

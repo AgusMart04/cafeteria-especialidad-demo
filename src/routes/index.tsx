@@ -11,25 +11,25 @@ import { Gallery } from "@/components/site/Gallery";
 import { Footer } from "@/components/site/Footer";
 import { StickyMobileBar } from "@/components/site/StickyMobileBar";
 
-const TITLE = "Sit&Joy · Café de especialidad y brunch en Alicante";
+const TITLE = "Café de Especialidad · Demo";
 const DESC =
-  "Sit&Joy es una cafetería en Alicante especializada en café de especialidad y brunch artesanal. Disfruta de desayunos únicos en un ambiente moderno y acogedor.";
-const URL = "https://sitjoycoffee.es/";
+  "Café de especialidad y brunch artesanal. Disfruta de desayunos únicos en un ambiente moderno y acogedor.";
+const URL = "https://cafe-especialidad-demo.vercel.app/";
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CafeOrCoffeeShop",
-  name: "Sit&Joy",
+  name: "Café de Especialidad",
   image: URL + "og.jpg",
   url: URL,
-  telephone: "+34651851946",
+  telephone: "+34624537879",
   priceRange: "€€",
   servesCuisine: ["Brunch", "Specialty Coffee", "Breakfast"],
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Plaza del Papa Juan Pablo II, 21",
+    streetAddress: "Calle Principal, 1",
     addressLocality: "Alicante",
-    postalCode: "03005",
+    postalCode: "03001",
     addressCountry: "ES",
   },
   aggregateRating: {
@@ -58,7 +58,7 @@ const jsonLd = {
       closes: "14:00",
     },
   ],
-  sameAs: ["https://www.instagram.com/sitjoycoffee/"],
+  sameAs: ["https://www.instagram.com/websites.agus/"],
 };
 
 export const Route = createFileRoute("/")({
@@ -69,7 +69,7 @@ export const Route = createFileRoute("/")({
       {
         name: "keywords",
         content:
-          "cafetería Alicante, brunch Alicante, café de especialidad Alicante, desayunos Alicante, Sit&Joy",
+          "cafetería Alicante, brunch Alicante, café de especialidad Alicante, desayunos Alicante",
       },
       { name: "robots", content: "index, follow" },
       { name: "theme-color", content: "#6B4F3A" },
@@ -78,7 +78,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:url", content: URL },
-      { property: "og:site_name", content: "Sit&Joy" },
+      { property: "og:site_name", content: "Café de Especialidad" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESC },

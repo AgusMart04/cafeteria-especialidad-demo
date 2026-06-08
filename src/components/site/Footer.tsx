@@ -6,10 +6,10 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-3 md:px-8">
         <div>
           <div className="font-serif text-3xl text-foreground">
-            Sit<span className="text-primary">&</span>Joy
+            Café<span className="text-primary">&</span>Especialidad
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
-            Café de especialidad y brunch artesanal en el centro de Alicante.
+            Café de especialidad y brunch artesanal en Alicante.
           </p>
         </div>
 
@@ -18,26 +18,26 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-foreground/80">
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 text-primary" />
-              Plaza del Papa Juan Pablo II, 21 · 03005 Alicante
+              Calle Principal, 1 · 03001 Alicante
             </li>
             <li>
               <a
-                href="https://wa.me/34651851946"
+                href="https://wa.me/624537879?text=Hola!%20me%20gusto%20tu%20demo%20de%20Caf%C3%A9%20de%20especialidad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary"
               >
-                <MessageCircle className="h-4 w-4 text-primary" /> WhatsApp · 651 85 19 46
+                <MessageCircle className="h-4 w-4 text-primary" /> WhatsApp · 624 53 78 79
               </a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/sitjoycoffee/"
+                href="https://www.instagram.com/websites.agus/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary"
               >
-                <Instagram className="h-4 w-4 text-primary" /> @sitjoycoffee
+                <Instagram className="h-4 w-4 text-primary" /> @websites.agus
               </a>
             </li>
           </ul>
@@ -54,7 +54,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-12 max-w-7xl border-t border-border px-5 pt-6 text-center text-xs text-muted-foreground md:px-8">
-        © {new Date().getFullYear()} Sit&Joy · Hecho con cariño en Alicante
+        © {new Date().getFullYear()} Café de Especialidad · Demo
       </div>
     </footer>
   );

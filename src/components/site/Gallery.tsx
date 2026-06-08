@@ -13,7 +13,7 @@ import m4 from "@/assets/menu-bowl.jpg";
 import m5 from "@/assets/menu-iced.jpg";
 
 const photos = [
-  { src: g1, alt: "Ambiente cálido en Sit&Joy Alicante" },
+  { src: g1, alt: "Ambiente cálido de cafetería" },
   { src: m1, alt: "Pancakes artesanales" },
   { src: g3, alt: "Detalle de mesa con café de especialidad" },
   { src: m2, alt: "Café de especialidad recién preparado" },
@@ -35,7 +35,7 @@ export function Gallery() {
             Galería
           </span>
           <h2 className="mt-3 font-serif text-4xl leading-tight text-foreground md:text-6xl">
-            Pequeños momentos en <em className="text-primary">Sit&Joy</em>
+            Pequeños momentos en <em className="text-primary">nuestro café</em>
           </h2>
         </div>
 
@@ -60,12 +60,12 @@ export function Gallery() {
 
         <div className="reveal mt-10 text-center">
           <a
-            href="https://www.instagram.com/sitjoycoffee/"
+            href="https://www.instagram.com/websites.agus/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-soft transition-all hover:opacity-90"
           >
-            Síguenos en @sitjoycoffee
+            Síguenos en @websites.agus
           </a>
         </div>
       </div>

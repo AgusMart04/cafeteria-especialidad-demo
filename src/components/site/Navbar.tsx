@@ -29,7 +29,7 @@ export function Navbar() {
     >
       <nav className="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
         <Link to="/" className="font-serif text-2xl tracking-tight text-foreground">
-          Sit<span className="text-primary">&</span>Joy
+          Café<span className="text-primary">&</span>Especialidad
         </Link>
 
         <ul className="hidden items-center gap-7 md:flex">
@@ -53,7 +53,7 @@ export function Navbar() {
             Reservar grupo
           </Link>
           <a
-            href="https://wa.me/34651851946"
+            href="https://wa.me/624537879?text=Hola!%20me%20gusto%20tu%20demo%20de%20Caf%C3%A9%20de%20especialidad"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-soft transition-all hover:opacity-90"
